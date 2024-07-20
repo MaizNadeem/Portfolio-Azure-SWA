@@ -35,7 +35,7 @@ const siteProps = {
   youTube: "https://www.youtube.com/@ROYAL-THUNDER",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#00385B";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
