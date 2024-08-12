@@ -24,30 +24,30 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Maiz Nadeem",
-  title: "Web Designer & Developer",
-  email: "contact.maiz@proton.me",
-  gitHub: "https://github.com/maiznadeem",
-  instagram: "https://www.instagram.com/m.maiznadeem/",
-  linkedIn: "https://www.linkedin.com/in/maiznadeem",
-  medium: "https://medium.com/@maiznadeem",
-  twitter: "https://twitter.com/MaizNadeem",
-  youTube: "https://www.youtube.com/@ROYAL-THUNDER",
+    name: "Maiz Nadeem",
+    title: "Web Designer & Developer",
+    email: "contact.maiz@proton.me",
+    gitHub: "https://github.com/maiznadeem",
+    instagram: "https://www.instagram.com/m.maiznadeem/",
+    linkedIn: "https://www.linkedin.com/in/maiznadeem",
+    medium: "https://medium.com/@maiznadeem",
+    twitter: "https://twitter.com/maiznadeem",
+    youTube: "https://www.youtube.com/@heymaiz",
 };
 
 const primaryColor = "#00385B";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
-  return (
-    <div id="main">
-      <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
-      <About />
-      <Portfolio />
-      <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
-    </div>
-  );
+    return (
+        <div id="main">
+            <Header />
+            <Home name={siteProps.name} title={siteProps.title} />
+            <About />
+            <Portfolio />
+            <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+        </div>
+    );
 };
 
 export default App;
